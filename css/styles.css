@@ -92,6 +92,7 @@ body {
 
 .header-list2 {
   display: flex;
+  gap: 40px;
 }
 
 .header-logo {
@@ -136,8 +137,6 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--main-text-color, #434455);
-
-  margin-right: 40px;
 }
 
 .header-tel-email {
@@ -232,8 +231,6 @@ body {
 }
 
 .main-title-desc {
-  display: flex;
-  flex-direction: column;
 }
 
 .main-title {
@@ -298,8 +295,6 @@ body {
 }
 
 .main-team-container {
-  display: flex;
-  flex-direction: column;
 }
 
 .main-team-logo {
@@ -321,6 +316,8 @@ body {
 
 .main-team-images2 {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .main-team-card {
@@ -501,7 +498,8 @@ body {
 .main-filters {
   display: flex;
   justify-content: center;
-  gap: 48px;
+  gap: 24px;
+  margin-bottom: 72px;
 }
 
 .filter-button {
@@ -517,7 +515,6 @@ body {
   cursor: pointer;
 
   padding: 12px 24px;
-  margin-bottom: 72px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
@@ -542,6 +539,22 @@ body {
 .main-page-list {
 }
 
+.image-row1 {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.main-rows-container {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 32px;
+  padding-left: 16px;
+  padding-bottom: 32px;
+  border: 1px solid #e7e9fc;
+}
+
 .main-rows-title {
   font-weight: 500;
   font-size: 20px;
@@ -549,10 +562,6 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--main-title-color, #2e2f42);
-
-  margin-top: 32px;
-  margin-bottom: 8px;
-  padding-left: 16px;
 }
 
 .main-rows-text {
@@ -562,7 +571,6 @@ body {
   letter-spacing: 0.02em;
 
   color: var(--main-text-color, #434455);
-  padding-left: 16px;
 }
 
 .footer-port {
